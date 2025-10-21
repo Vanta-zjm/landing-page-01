@@ -1,14 +1,26 @@
 :root {
     --bg: #000;
+    --bg-light: #fff;
     --text: #fff;
-    --primary: #878787;
+    --primary: #111;
+    --accent: #2563eb;
     --max-width: 860px;
     --text-black: #000;
+}
+button{
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    transition: all ease 0.3s;
 }
 
 body{
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: var(--text);
     background: var(--bg);
 }
@@ -29,6 +41,10 @@ h1,h2,h3,h4{
     align-items: center;
     padding: 1rem 0;
 }
+.nav .logo{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
 .nav a{
     margin-left: 1rem;
     text-decoration: none;
@@ -36,7 +52,7 @@ h1,h2,h3,h4{
     font-size: 0.9rem;
 }
 
-#hero{
+.hero{
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -44,30 +60,32 @@ h1,h2,h3,h4{
     align-items: center;
     text-align: center;
 }
-#hero h1{
+.hero h1{
     font-size: 50px;
     color: white;
 }
-#hero p{
+.hero p{
     font-size: 16px;
     color: white;
 }
-#hero button{
-    margin-top: 1rem;
-    padding: 0.75rem 1.5rem;
-    border: none;
+button.primary{
     background: var(--primary);
-    color: #fff;
-    font-size: 1rem;
-    cursor: pointer;
-    text-align: center;
-    border-radius: 10px;
-    transition: all ease 0.3s;
+    color: #ffffff;
 }
-#hero button:hover{
+.hero .primary:hover{
     background: #ff0000;
     color: white;
     transform: scale(1.05);
+}
+button.secondary{
+    background: transparent;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+}
+button.secondary:hover{
+    background: var(--accent);
+    color: white;
+    transform: scale(1.1);
 }
 
 .features{
@@ -81,9 +99,10 @@ h1,h2,h3,h4{
     margin-top: 2rem;
 }
 .feature-item{
-    background: #f8f8f8;
+    background: #fff;
     padding: 1.5rem;
     border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.6);
     transition: all ease 0.3s;
 }
 .feature-item:hover{
@@ -103,18 +122,6 @@ h1,h2,h3,h4{
     text-align: center;
     padding: 4rem 0;
 }
-.cta button{
-    margin-top: 1rem;
-    padding: 0.75rem 1.5rem;
-    border: none;
-    background: var(--primary);
-    color: #fff;
-    font-size: 1rem;
-    cursor: pointer;
-    text-align: center;
-    border-radius: 10px;
-    transition: all ease 0.3s;
-}
 .cta button:hover{
     background: #ff0000;
     color: white;
@@ -126,4 +133,11 @@ h1,h2,h3,h4{
     padding: 2rem 0;
     font-size: 0.9rem;
     color: #555;
+}
+.footer a{
+    color: var(--accent);
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
 }
