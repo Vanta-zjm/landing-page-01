@@ -4,7 +4,7 @@
     --text: #fff;
     --primary: #111;
     --accent: #2563eb;
-    --max-width: 860px;
+    --max-width: 900px;
     --text-black: #000;
 }
 button{
@@ -26,20 +26,28 @@ body{
 }
 
 .wrapper{
-    min-width: var(--max-width);
+    max-width: var(--max-width);
+    width: 100%;
     margin: 0 auto;
-    padding: 2rem;
+    padding-inline: 2rem;
 }
 
 h1,h2,h3,h4{
     margin: 0 0 1rem 0;
 }
 
+.nav-wrapper{
+    position: sticky;
+    top: 0;
+    background: rgb(64, 64, 64);
+    border-bottom: 1px solid rgba(117, 117, 117, 0.47);
+    z-index: 10;
+}
 .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
+    padding-block: 1rem;
 }
 .nav .logo{
     font-weight: 700;
@@ -52,8 +60,15 @@ h1,h2,h3,h4{
     font-size: 0.9rem;
 }
 
+section h2{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
 .hero{
-    height: 90vh;
+    background: #000;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -89,7 +104,8 @@ button.secondary:hover{
 }
 
 .features{
-    padding: 4rem 0;
+    background: #0f0f0f;
+    padding-block: 6rem;
     text-align: center;
 }
 .features-grid{
@@ -100,10 +116,10 @@ button.secondary:hover{
 }
 .feature-item{
     background: #fff;
-    padding: 1.5rem;
-    border-radius: 8px;
+    padding: 2rem;
+    border-radius: 12px;
     box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.6);
-    transition: all ease 0.3s;
+    transition: all ease 0.25s;
 }
 .feature-item:hover{
     transform: scale(1.05);
@@ -113,12 +129,14 @@ button.secondary:hover{
 }
 
 .about{
+    background: #000;
     text-align: center;
     padding: 4rem 0;
     line-height: 1.6;
 }
 
 .cta{
+    background: #0f0f0f;
     text-align: center;
     padding: 4rem 0;
 }
@@ -128,7 +146,23 @@ button.secondary:hover{
     transform: scale(1.05);
 }
 
+.trust{
+    padding-block: 4rem;
+    text-align: center;
+}
+.trust-list{
+    list-style: none;
+    padding: 0;
+    margin: 1rem auto 0;
+    max-width: 700px;
+}
+.trust-list li{
+    margin: 5rem 0;
+    opacity: .9;
+}
+
 .footer{
+    background: #000;
     text-align: center;
     padding: 2rem 0;
     font-size: 0.9rem;
