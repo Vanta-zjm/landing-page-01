@@ -3,8 +3,7 @@
 A clean and responsive landing page built with HTML, CSS and a lightweight component structure.  
 Designed for clarity, fast loading and real-world use in product or service presentation.
 
-🔗 **Live Demo:** https://vanta-zjm.github.io/landing-page-01/  
-📦 **Source Code:** https://github.com/vanta-zjm/landing-page-01
+🔗 **Live Demo:** https://vanta-zjm.github.io/landing-page-01/
 
 ---
 
@@ -31,7 +30,7 @@ Designed for clarity, fast loading and real-world use in product or service pres
 ## 📸 Preview
 > LP-01 - Homepage (Hero Section)
 
-*(Add screenshot here, e.g. `assets/cover.png`)*  
+*(Add screenshot here, e.g. `PF-30-LandingPage-Preview`)*  
 *(Your screenshot: **LP-01-cover-v1.0.png**)*
   
 ---
@@ -79,3 +78,4 @@ This project is open-source and available under the MIT License.
 ### 👨‍💻 Author
 Built by **ZJM (Vanta)**  
 Open to collaboration and freelance work — contact coming soon.
+
