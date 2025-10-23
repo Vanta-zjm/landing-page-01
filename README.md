@@ -64,8 +64,9 @@ This project is open-source and available under the MIT License.
 ---
 
 ### 👨‍💻 Author
-Built by **张津铭Zhang Jinming (Vanta)**  
+Built by **张津铭 (Vanta)**  
 Open to collaboration and freelance work — contact coming soon.
+
 
 
 
