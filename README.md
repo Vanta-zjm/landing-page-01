@@ -34,17 +34,6 @@ Designed for clarity, fast loading and real-world use in product or service pres
   
 ---
 
-## 📂 Project Structure
-landing-page-01/
-├── index.html
-├── style.css
-├── script.js
-├── assets/
-│   └── images…
-└── README.md
-
----
-
 ## 🚀 Sections
 - Hero
 - Features
@@ -77,6 +66,7 @@ This project is open-source and available under the MIT License.
 ### 👨‍💻 Author
 Built by **ZJM (Vanta)**  
 Open to collaboration and freelance work — contact coming soon.
+
 
 
 
