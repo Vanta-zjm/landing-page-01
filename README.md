@@ -30,7 +30,7 @@ Designed for clarity, fast loading and real-world use in product or service pres
 ## 📸 Preview
 > LP-01 - Homepage (Hero Section)
 
-![Project Screenshot](PF-30-LandingPage-Preview)
+![Project Screenshot](PF-30-LandingPage-Preview.jpg)
   
 ---
 
@@ -77,6 +77,7 @@ This project is open-source and available under the MIT License.
 ### 👨‍💻 Author
 Built by **ZJM (Vanta)**  
 Open to collaboration and freelance work — contact coming soon.
+
 
 
 
