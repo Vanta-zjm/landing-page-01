@@ -1,13 +1,81 @@
-\# Landing Page #1 （PF-30）
+# LP-01 · Product Landing Page
 
-[👉 View Online](https://vanta-zjm.github.io/landing-page-01/)
+A clean and responsive landing page built with HTML, CSS and a lightweight component structure.  
+Designed for clarity, fast loading and real-world use in product or service presentation.
 
-Status: Day 1 - Project Initialized  
+🔗 **Live Demo:** https://vanta-zjm.github.io/landing-page-01/  
+📦 **Source Code:** https://github.com/vanta-zjm/landing-page-01
 
-Goal: Build clean modern landing page using basic HTML/CSS  
+---
 
-Style: R1 - Modern Clean Tech  
+## ✅ Features
+- Responsive layout (mobile-first)
+- Dark & Light theme switch
+- Reusable layout sections
+- Minimal and readable code structure
+- Production-ready asset organization
+- Smooth hamburger menu interaction
 
-Purpose: Showcase baseline front-end ability and delivery structure
+---
 
+## 🛠 Tech Stack
+| Category | Tools |
+|----------|-------|
+| Markup | HTML5 |
+| Styling | CSS3 (variables, grid) |
+| Interaction | Vanilla JavaScript |
+| Version Control | Git + GitHub Pages |
 
+---
+
+## 📸 Preview
+> LP-01 - Homepage (Hero Section)
+
+*(Add screenshot here, e.g. `assets/cover.png`)*  
+*(Your screenshot: **LP-01-cover-v1.0.png**)*
+  
+---
+
+## 📂 Project Structure
+landing-page-01/
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+│   └── images…
+└── README.md
+
+---
+
+## 🚀 Sections
+- Hero
+- Features
+- Services
+- Work Portfolio
+- Trust Signals
+- Process
+- About
+- CTA
+- Footer
+
+---
+
+## 📦 Version History
+| Version | Status | Notes |
+|----------|--------|--------|
+| v0.1 | ✅ Init | Basic layout |
+| v0.3 | ✅ Structure | Sections + layout |
+| v0.6 | ✅ Trust block | First trust layer |
+| v0.7 | ✅ Portfolio | Case preview integrated |
+| v1.0 | ✅ Release | Fully ready project version |
+
+---
+
+## 🔓 License
+This project is open-source and available under the MIT License.
+
+---
+
+### 👨‍💻 Author
+Built by **ZJM (Vanta)**  
+Open to collaboration and freelance work — contact coming soon.
